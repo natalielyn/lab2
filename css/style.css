@@ -1,0 +1,34 @@
+  
+  body {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: #e1f0f7;
+      padding-top: 150px;
+      padding-right: 200px;
+      padding-bottom: 50px;
+      padding-left: 200px;
+      border: dotted;
+   
+  }
+  
+  h1 {
+      border: round;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      background-color:#93aab5;
+      font-size: 2.5em;
+
+  }
+
+  h2 {
+    border: round;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: #93aab5;
+    font-size: 1.5em;
+
+  }
+
+
