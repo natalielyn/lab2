@@ -3,7 +3,7 @@
       text-align: center;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       background-color: #e1f0f7;
-      padding-top: 150px;
+      padding-top: 50px;
       padding-right: 200px;
       padding-bottom: 50px;
       padding-left: 200px;
@@ -12,6 +12,7 @@
   }
   
   h1 {
+      padding: 20;
       border: round;
       border-radius: 10px;
       text-align: center;
@@ -37,6 +38,14 @@
   color: white;
   background-color: #aeb3b6;
   font-size: 1.5em;
+ }
+
+ li {
+   padding: 10px
+ }
+
+ p {
+   padding: 10px
  }
 
 
