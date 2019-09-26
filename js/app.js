@@ -93,7 +93,7 @@ console.log (favSushiRolls);
             alert('Correct! Natalie loves ' + favSushiRolls + '!!')
             correctScore++
      } else if (sushiGuessWrong); {
-            alert('Sorry!')
+            alert('Sorry! You guessed wrong too many times, her favorite sushis are: ' + favSushiRolls)
             i = 6;
      } 
     
