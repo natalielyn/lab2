@@ -83,24 +83,24 @@ console.log(numOfGuesses);
 
 // this is the 7th question added with multible answers
 
-// var favSushiRolls = ['california', 'spider', 'rainbow']
-// var sushiGuessWrong = [ ]
-// console.log (favSushiRolls);
+var favSushiRolls = ['california', 'spider', 'rainbow']
+var sushiGuessWrong = [ ]
+console.log (favSushiRolls);
 
-//     for (var i = 0;  i < 6; i++)
-//         var sushiGuess = prompt('Guess what Natalies 3 favorite types of sushi rolls are, (you have 6 tries)');
-//         if (sushiGuess.includes(favSushiRolls)) {
-//             alert('Correct! Natalie loves ' + favSushiRolls + '!!')
-//             break;  
-//      } else if (sushiGuessWrong); {
-//             alert('Sorry!')
-//             i = 6;
-//      } 
+    for (var i = 0;  i < 6; i++)
+        var sushiGuess = prompt('Guess what Natalies 3 favorite types of sushi rolls are, (you have 6 tries)');
+        if (sushiGuess.includes(favSushiRolls)) {
+            alert('Correct! Natalie loves ' + favSushiRolls + '!!')
+            correctScore++
+     } else if (sushiGuessWrong); {
+            alert('Sorry!')
+            i = 6;
+     } 
     
       
     
 //Final alert thanking user for playing and their score
 
-alert('Thanks for playing' + userName + 'your final score is: ' + correctScore++)
+alert('Thanks for playing ' + userName + ' your final score is: ' + correctScore + ' out of 7')
     
 
