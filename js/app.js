@@ -3,6 +3,9 @@
 //This section is the about me quiz from lab2, i've put in some multible choice with one 1 correct answer
 var correctScore=0
 
+function gameOne(){
+
+
     var userName = prompt('Hello! im Natalie\s QuizBot! What is your name?')
        //console.log('Hi' + userName '! I am so happy you visited my web page!')
         alert('Hi ' + userName + '! I am so happy you visited my webpage!');
@@ -52,8 +55,11 @@ var correctScore=0
     } else {
     alert('WRONG. Its The Office you uncultured swine.' + userName + 'try again next time...')
 }
+}
 
 //This is the start of the "Guess a number" game, the user gets 4 tries before they get a message that breaks the loop
+
+function gameTwo() {
 
 var numAnswer = 9;
 var numOfGuesses = 0;
@@ -79,9 +85,11 @@ console.log(numOfGuesses);
                 numOfGuesses++; }
 
      }
+    }
 
 // this is the 7th question added with multible answers
 
+function gameThree() {
 var favSushiRolls = ['california', 'spider', 'rainbow']
 var sushiGuessWrong = [ ]
 
@@ -99,7 +107,11 @@ var sushiGuessWrong = [ ]
 
 alert('Thanks for playing ' + userName + ' your final score is: ' + correctScore + ' out of 7')
 
+}
 
+gameOne();
+gameTwo();
+gameThree();
 
 // while ( attempts < 7 && correctGuess === false ) {
 //     var sushiGuess = (prompt(' try guessing my favorite sushi rolls')).toLowerCase();
