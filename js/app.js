@@ -59,11 +59,10 @@ var numAnswer = 9;
 var numOfGuesses = 0;
 console.log(numAnswer); 
 console.log(numOfGuesses);
-     while (numOfGuesses < 4) {
+    while (numOfGuesses < 4) {
          var numberGame = prompt('Guess a number between 1 and 50')
 
     numberGame = numberGame * 1;
-    console.log(numberGame);
         if (numberGame == numAnswer) {
             alert ('Correct!' + numAnswer + ' is the correct answer!')
             correctScore++
@@ -85,22 +84,33 @@ console.log(numOfGuesses);
 
 var favSushiRolls = ['california', 'spider', 'rainbow']
 var sushiGuessWrong = [ ]
-console.log (favSushiRolls);
 
-    for (var i = 0;  i < 6; i++)
+    for (var i = 0;  i < 6; i++) 
         var sushiGuess = prompt('Guess what Natalies 3 favorite types of sushi rolls are, (you have 6 tries)');
-        if (sushiGuess.includes(favSushiRolls)) {
+        if (sushiGuess.includes.toLowerCase(favSushiRolls)) {
             alert('Correct! Natalie loves ' + favSushiRolls + '!!')
             correctScore++
-     } else if (sushiGuessWrong); {
+        } else if (sushiGuessWrong); {
             alert('Sorry! You guessed wrong too many times, her favorite sushis are: ' + favSushiRolls)
             i = 6;
      } 
     
       
-    
-//Final alert thanking user for playing and their score
 
 alert('Thanks for playing ' + userName + ' your final score is: ' + correctScore + ' out of 7')
+
+
+
+// while ( attempts < 7 && correctGuess === false ) {
+//     var sushiGuess = (prompt(' try guessing my favorite sushi rolls')).toLowerCase();
+//     for (var i = 0; i< favSushiRolls.length -1 ; i++ ) {
+//         if ( sushiGuess === favSushiRolls [i]) {
+//             alert('Nice job!' + favSushiRolls + ' is one of my favorite rolls!');
+//             correctGuess = true;
+//             correctScore++
+//         }
+//         attempts += 1;
+//     }
+// }
     
 
