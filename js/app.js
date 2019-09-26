@@ -79,15 +79,12 @@
 var favSushiRolls = ['california', 'spider', 'rainbow']
 console.log (favSushiRolls);
 
-var sushiGuess = ['california', 'spider', 'rainbow']
-var sushiGuessWrong = [ ]
-
     for (var i = 0;  i < 6; i++)
         var sushiGuess = prompt('Guess what Natalies 3 favorite types of sushi rolls are, (you have 6 tries)');
-        if (sushiGuess.includes(favSushiRolls.toUpperCase())) {
+        if (sushiGuess.includes(favSushiRolls)) {
             alert('Correct!')
-       var sushiGuessCorrect = prompt('Correct! Natalie loves ' + favSushiRolls + '!!')
-            sushiGuessCorrect++;
+       var sushiCorrect= prompt('Correct! Natalie loves ' + favSushiRolls + '!!')
+           // correct++;
             alert('Correct! my favorite type of sushis are' + favSushiRolls)
      } else if (sushiGuessWrong); {
             alert('Sorry!')
@@ -99,93 +96,3 @@ var sushiGuessWrong = [ ]
 
     console.log(sushiGuessCorrect)
 
-//Playing around
-
-// for(i=1; i<6;i++) {
-//             if(isAnswer === false); {
-//                      alert('Sorry, that is not one of the numbers I was thinking of');
-//     }       else if(isAnswer === true); {
-//                      alert('congradulations! That is one of the right answers!');
-//                     break;
-//     }
-//     }
-//     var colors = ['red', 'white', 'blue'];
-// var comment;
-
-// for (var tries = 6; tries >= 0; --tries) {
-//         comment = prompt('what\'s you\'re fav color');
-//         for (var i = 0; i < colors.length; ++i) {
-//                 if (comment === colors[i]) {
-//                         alert('congrats!');
-//                         break;
-//                 } else {
-//                         alert('wrong!');
-//                 }
-
-//         }
-// }
-
-// while (tries > 0) {
-//         for (var i = 0; i < colors.length; ++i) {
-//                 if (comment === colors[i]) {
-//                         alert('congrats!');
-//                         break;
-//                 } else {
-//                         alert('wrong!');
-//                         prompt('what\'s you\'re fav color');
-//                         tries -= 1;
-//                 }
-//         }
-        
-// }
-
-
-// for (var i = 0; i < colors.length; ++i) {
-//         prompt('what\'s you\'re fav color');
-//         if (comment !== colors[i]) {
-//                         alert('wrong!');
-//                         while (tries >6) {
-//                         tries += 1;
-//                         }  
-//                 } else if (comment !== colors[i]) {
-//                         alert('wrong! The answer was either Red, White, or blue!');
-//                 } else {
-//                 alert('congrats!');
-//                 break;
-//         }
-// }
-
-// var colors = ['red', 'white', 'blue'];
-// var count = 0
-
-
-
-// while(count < 6 ) {
-//         var question = prompt('name that color');
-//         var comment = false;        
-//         for(var i=0; i<6; i++) {
-//                 if(question === colors[i]) {
-//                         comment = true;
-//                 }
-
-//         }
-//         if( comment === true){
-//         alert('congrats');
-//         score++
-//         break;
-//         }
-//         if(comment === false){
-//                 alert('sorry, try again');
-//                 count++;
-//         if (count === 6) {
-//                 alert('sorry, the right answers were red, white, or blue!');
-//         }
-//         }
-// }
-// alert('Hey you got '+ score + ' correct answers. great job!');
-
-
-
-
-
-       
