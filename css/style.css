@@ -1,51 +1,46 @@
-  
-  body {
-      text-align: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      background-color: #e1f0f7;
-      padding-top: 50px;
-      padding-right: 200px;
-      padding-bottom: 50px;
-      padding-left: 200px;
-      border: dotted;
-   
-  }
-  
-  h1 {
-      padding: 20;
-      border: round;
-      border-radius: 10px;
-      text-align: center;
-      color: white;
-      background-color:#93aab5;
-      font-size: 2.5em;
-
-  }
-
-  h2 {
-    border: round;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    background-color: #93aab5;
-    font-size: 1.5em;
-
-  }
- h3 {
-  border: round;
-  border-radius: 10px;
-  text-align: center;
+* { 
+  box-sizing: border-box; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Geneva, Verdana, sans-serif;
   color: white;
-  background-color: #aeb3b6;
-  font-size: 1.5em;
- }
+  background-color: rgb(34, 34, 34);
+  
+} 
 
- li {
-   padding: 10px
- }
+/* CSS property for header section */ 
+.header { 
+  background-color: #439AA0; 
+  text-shadow: 3px 3px #0D5C63;
+  padding: 15px; 
+  text-align: center; 
+  font-size: xx-large
+} 
 
- p {
-   padding: 10px
- }
+
+/* CSS property for content section */ 
+.columnA, .columnB, .columnC { 
+  float: left; 
+  width: 31%; 
+  padding: 15px; 
+  text-align: left; 
+  background-color: rgb(34, 34, 34);
+  font-size: larger;
+  line-height: initial;
+} 
+h2 { 
+  box-shadow: 5px 0px rgb(212, 212, 212);
+  font-size: xx-large;
+  color: white;  
+  text-shadow: 1px 1px #0D5C63;
+  background-color: #439AA0;
+
+
+}
+
+.fas {
+  text-align: center;
+  font-size: 72px;
+}
+
+
 
 
